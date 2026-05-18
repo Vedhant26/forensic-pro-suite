@@ -1,0 +1,17 @@
+112: Feature: Toggle between Light and Dark modes
+111: Lock down uploads and stats endpoints ΓÇö require auth & role checks
+109: Stop buffering uploads in memory ΓÇö stream file + compute hashes to avoid OOM
+107: Login Portal UI/UX ΓÇô Unexpected Secure Investigator Screen
+99: Fix login form validation and error handling
+97: Add ARIA labels and accessibility attributes to components
+91: Add command history navigation to forensic terminal
+83: Add back to top button for improved navigation
+81: Add loading skeleton for dashboard data fetch
+78: Enhance Geospatial Threat Map with Heat Zones
+77: Add AI-Powered Case Summarization Engine
+76: Add Role-Based Access Control (RBAC) for Investigators
+75: Add Advanced Case Search & Filtering System
+74: Harden evidence ingestion: stream uploads, sandbox processing, antivirus & zipΓÇæbomb protection
+60: [FEATURE] Integrate OSINT Enrichment Module for Automated Artifact Intelligence
+59: Collab request
+1: i would like  to contribute in your project

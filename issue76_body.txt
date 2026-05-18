@@ -1,0 +1,22 @@
+## ≡ƒöÉAdd Role-Based Access Control (RBAC) for Investigators
+
+### Is your feature request related to a problem? Please describe.
+Currently, all authenticated users have similar access levels. In real forensic environments, different roles (Analyst, Lead Investigator, Admin) require different permissions.
+
+### Describe the solution you'd like
+Implement Role-Based Access Control:
+
+- Roles:
+  - Admin (full access to all cases + settings)
+  - Investigator (create + analyze cases)
+  - Viewer (read-only access)
+- Protect routes like `/dashboard`, `/cases`, `/reports`
+- Enforce role checks in both frontend and backend (FastAPI + NextAuth)
+
+### Describe alternatives you've considered
+Single-role authentication, but it lacks real-world forensic workflow control.
+
+### Additional context
+Improves security, audit compliance, and realistic forensic simulation.
+
+≡ƒôî Kindly allot this issue to @Coder-010506

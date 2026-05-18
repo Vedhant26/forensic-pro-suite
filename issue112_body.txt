@@ -1,0 +1,8 @@
+## Problem
+The  dashboard currently lacks the feature to toggle between Light and Dark modes. This feature could help improve accessibility as it only uses Dark mode.
+
+## Proposed Solution
+Introduce a theme toggling button (such as a clean Sun/Moon icon switch) onto the global Dashboard top navigation header.
+
+Kindly assign this to me if you find it appropriate as part of GSSoC'26.
+

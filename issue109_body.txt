@@ -1,0 +1,4 @@
+/api/analyze currently does await file.read() (see main.py),
+buffering the entire upload into memory, risking OOM with large evidence files. Fix by streaming the upload to a secure temp file in chunks, updating SHA256 and MD5 incrementally, aborting if cumulative size > MAX_FILE_SIZE, and ensuring temp-file cleanup and non-blocking IO. Add tests for large-file upload (no OOM), hash correctness, and overflow rejection.
+
+@Akshay473 could you look at this issue and assign it to me under gssoc

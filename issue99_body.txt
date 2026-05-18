@@ -1,0 +1,17 @@
+# Problem
+The login page currently uses a browser `alert()` for error messages and has no client-side validation for email format or password length. This provides a poor user experience and lacks proper error feedback.
+# Current Behavior
+- No email format validation before submission
+- No password length check
+- Uses `alert()` popup for errors instead of inline error messages
+- No loading state during authentication
+- No accessibility attributes on form fields
+# Proposed Improvement
+- Add email format validation with regex
+- Add minimum password length validation (6 chars)
+- Replace `alert()` with inline error banners
+- Add loading spinner during authentication
+- Add ARIA attributes for screen readers
+- Add `aria-invalid` and error descriptions on inputs
+# Expected Result
+Users will see clear, inline error messages with proper visual feedback, loading states, and the form will be accessible to screen readers.
